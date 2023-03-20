@@ -4,11 +4,6 @@ git clone --recursive git@github.com:SensorFusionProject/SensorFusion.git
 cd SensorFusion/ros/catkin_ws
 pip install setuptools gdown
 export PATH=$PATH:~/.local/bin
-# gdown --id 1kb5_Bz7gS7LIPsbF34SIk25e3zu98Ygs --output short_sample_1.bag
-# gdown --id 1qsRcCEStqcpRRNeYRx2BRzpust8Zx27B --output car_detection.bag
-# gdown --id 1m2dj1Y4pqClBzApfGHmkBCsKMyLJkYGD --output human_car_best.bag
-# gdown --id 14ORSauKEp2Nt2VgwZqa0KwdKRdkvJ1Kp --output overtaking_backward.bag
-# gdown --id 1tnSdYKKDlaP-tKxUWm6XADoL3OolxWJB --output kickboard_car.bag
 cp src/radar_package/0001-update-launch-and-cfg-in-darknet_ros.patch src/radar_package/yolov4-for-darknet_ros/darknet_ros/
 cp src/radar_package/0001-update-makefile-in-darknet.patch src/radar_package/yolov4-for-darknet_ros/darknet_ros/darknet/
 cd src/radar_package/yolov4-for-darknet_ros/darknet_ros

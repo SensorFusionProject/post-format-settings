@@ -1,1 +1,0 @@
-sudo rm -rf /home/josh/snap/snap-store/common/.cache/

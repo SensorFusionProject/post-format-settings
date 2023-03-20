@@ -1,3 +1,2 @@
-git config --global user.email "coolwind@hotmail.co.kr"
-git config --global user.name "JoSH@CoolUbuntu"
-git config --global core.editor "vim"
+git config --global user.email "your_email@example.com"
+git config --global user.name "your_name"
